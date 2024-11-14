@@ -1,0 +1,249 @@
+:host {
+    display: contents;
+  }
+  .mac-book-air-1 {
+    background-color: rgba(224, 220, 239, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    padding: 26px 21px;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  @media (max-width: 991px) {
+    .mac-book-air-1 {
+      padding: 0 20px;
+    }
+  }
+  .div {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1px 0 1px 80px;
+  }
+  @media (max-width: 991px) {
+    .div {
+      max-width: 100%;
+      padding-left: 20px;
+    }
+  }
+  .div-2 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 41%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-self: stretch;
+    margin: auto 0;
+    font: 800 16px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      margin-top: 40px;
+    }
+  }
+  .welcome-back {
+    color: rgba(0, 0, 0, 1);
+    font-size: 36px;
+    font-weight: 900;
+    align-self: start;
+  }
+  .enter-to-get-unlimited-access-to-data-information {
+    color: rgba(160, 159, 159, 1);
+    margin-top: 43px;
+  }
+  @media (max-width: 991px) {
+    .enter-to-get-unlimited-access-to-data-information {
+      margin: 40px 9px 0 0;
+    }
+  }
+  .div-4 {
+    align-self: start;
+    display: flex;
+    margin-top: 31px;
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      margin-left: 7px;
+      white-space: initial;
+    }
+  }
+  .email {
+    color: rgba(0, 0, 0, 1);
+    flex-grow: 1;
+  }
+ 
+  .enter-your-mail-address {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 14px;
+    font-size: 14px;
+    color: rgba(160, 159, 159, 1);
+    font-weight: 400;
+    padding: 19px 29px;
+    border: 1px solid rgba(160, 159, 159, 1);
+  }
+  @media (max-width: 991px) {
+    .enter-your-mail-address {
+      padding: 0 20px;
+    }
+  }
+  .div-5 {
+    align-self: start;
+    display: flex;
+    margin-top: 14px;
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      margin-left: 7px;
+      white-space: initial;
+    }
+  }
+  .password {
+    color: rgba(0, 0, 0, 1);
+    flex-grow: 1;
+  }
+  .enter-your-password {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 14px;
+    font-size: 14px;
+    color: rgba(160, 159, 159, 1);
+    font-weight: 400;
+    padding: 19px 29px;
+    border: 1px solid rgba(160, 159, 159, 1);
+  }
+  @media (max-width: 991px) {
+    .enter-your-password {
+      padding: 0 20px;
+    }
+  }
+  .div-6 {
+    align-self: start;
+    display: flex;
+    gap: 8px;
+    color: rgba(0, 0, 0, 1);
+    margin: 23px 0 0 12px;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      margin-left: 10px;
+    }
+  }
+  .img {
+    aspect-ratio: 0.94;
+    object-fit: contain;
+    object-position: center;
+    width: 17px;
+    align-self: start;
+  }
+  .forget-your-password {
+    border-radius: 20px;
+    background-color: rgba(62, 198, 163, 1);
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgba(62, 198, 163, 1);
+    font-weight: 400;
+    padding: 16px 70px;
+  }
+  @media (max-width: 991px) {
+    .forget-your-password {
+      padding: 0 20px;
+    }
+  }
+  .div-7 {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    margin-top: 14px;
+    gap: 16px;
+    font-size: 14px;
+    color: rgba(36, 36, 36, 1);
+    font-weight: 900;
+    padding: 13px 80px;
+    border: 1px solid rgba(160, 159, 159, 1);
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      padding: 0 20px;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 1.13;
+    object-fit: contain;
+    object-position: center;
+    width: 26px;
+  }
+  .sign-up-with-google {
+    flex-grow: 1;
+    width: 184px;
+    margin: auto 0;
+  }
+  .div-8 {
+    align-self: center;
+    display: flex;
+    margin-top: 14px;
+    width: 249px;
+    max-width: 100%;
+    gap: 16px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .dont-have-an-account {
+    flex-grow: 1;
+  }
+  .div-9 {
+    align-self: start;
+    margin-top: 15px;
+    width: 83px;
+    height: 2px;
+    border: 1px solid rgba(62, 198, 163, 1);
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 59%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .img-3 {
+    aspect-ratio: 0.92;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+    flex-grow: 1;
+  }
+  @media (max-width: 991px) {
+    .img-3 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
